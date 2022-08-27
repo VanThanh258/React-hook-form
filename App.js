@@ -7,6 +7,7 @@ import Header from './components/Header/header';
 import Item from './components/Item/Item';
 import Footer from './components/footer/footer';
 //Đây là file App
+//Đây là thay đổi mới
 export default function App() {
   const [name,setName] = useState('');
   const [email,setEmail] = useState('');
