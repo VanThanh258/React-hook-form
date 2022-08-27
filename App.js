@@ -63,7 +63,7 @@ export default function App() {
            return <Item showValue = {show}  value={item.value} changeText={ text => item.changeText(text)} key={index} lable={item.lable} title={item.title}/>
           })
         }
-        <Text>Hai Ba</Text>
+        <Text> Đây là file app js</Text>
         <Footer lable = 'Sign Up' color = '#E52E04' onPress={signUp} />
         <Footer lable = 'Log in' color = '#F8B55C' onPress={login}/>
         <Footer lable = 'Reset Form' color = 'gray' onPress={resetForm}/>
