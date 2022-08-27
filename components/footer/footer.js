@@ -1,7 +1,7 @@
 import { View, Text,Button,StyleSheet } from 'react-native'
 import React from 'react'
 import { TouchableOpacity } from 'react-native';
-
+//Đây là file footer
 const Footer = (props) => {
   return (
     <View style={{paddingHorizontal: 30}}>
